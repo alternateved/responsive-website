@@ -100,3 +100,18 @@ body {
   border: 4px solid black;
   background-color: var(--white-rectangle);
 }
+
+@media all and (max-width: 900px) {
+  .content {
+    grid-template-areas:
+      "bar      bar"
+      "diamonds rectangle"
+      "figures  rectangle";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .rectangle {
+    background-color: var(--red-rectangle);
+  }
+}
