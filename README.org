@@ -1,1 +1,16 @@
 #+TITLE: Exercise project
+
+Small and simple responsive page with colored shapes.
+
+* Directory structure
+
+#+begin_example
+
+├── part-1
+│   ├── index.html
+│   └── style.css
+├── part-2
+│   └── plan.txt
+└── README.org
+
+#+end_example
