@@ -115,3 +115,20 @@ body {
     background-color: var(--red-rectangle);
   }
 }
+
+@media all and (max-width: 583px) {
+  .content {
+    grid-template-areas:
+      "bar"
+      "diamonds"
+      "figures"
+      "rectangle"
+      "rectangle";
+    grid-template-rows: 50px, repeat(4, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  .rectangle {
+    background-color: var(--blue-rectangle);
+  }
+}
