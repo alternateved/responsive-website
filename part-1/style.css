@@ -21,10 +21,9 @@ body {
 .content {
   display: grid;
   grid-template-areas:
-    "header header header"
-    "left center right"
-    "left center right"
-    "footer footer footer";
+    "bar      bar     bar"
+    "diamonds figures rectangle"
+    ".        .       rectangle";
   grid-template-rows: 80px 1fr 1fr 60px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0px;
@@ -36,7 +35,7 @@ body {
 }
 
 .bar-container {
-  grid-area: header;
+  grid-area: bar;
 }
 
 .bar {
@@ -46,7 +45,7 @@ body {
 }
 
 .diamond-container {
-  grid-area: left;
+  grid-area: diamonds;
   padding: 40px;
   transform: rotate(45deg);
 }
@@ -60,7 +59,9 @@ body {
 }
 
 .figure-container {
-  grid-area: center;
+  grid-area: figures;
+  display: flex;
+  padding: 40px;
 }
 
 .stripe {
@@ -83,7 +84,7 @@ body {
 }
 
 .rectangle-container {
-  grid-area: right;
+  grid-area: rectangle;
   padding: 40px;
 }
 
