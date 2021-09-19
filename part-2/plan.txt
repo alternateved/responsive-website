@@ -1,0 +1,17 @@
+1. Consider present and future needs for the room.
+2. Measure the room's dimensions.
+3. Create a plan/3D model of the room.
+4. Choose which furniture from the room needs replacement.
+5. Choose which parts of the room needs redecorating.
+6. Update the plan/3D model with results of steps 4 and 5.
+7. Do the inital reasearch about the prices and availability of products with which the room will be redecorated.
+8. Depending on the available funds consider outsourcing redecoration of the room.
+   - in case of outsourcing investigate who could you hire for that task.
+9. Schedule the redecoration:
+   - consider when all needed products will be gathered,
+   - consider when all furniture will be delivered,
+   - consider the time needed to redecorate the room
+   - consider the time needed to clean up after the redecoration
+10. Depending on the results of step 4, sell or remove old furniture.
+11. Depending on the results of step 5, create a base for redecorating.
+12. Redecorate and clean up.
