@@ -1,3 +1,4 @@
 #+TITLE: Exercise project
 
 Small and simple responsive page with colored shapes.
+Demo is available [[https://alternateved.github.io/responsive-website/][here]].
